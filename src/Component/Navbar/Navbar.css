@@ -1,0 +1,122 @@
+.nav_bar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 6%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.6),transparent);
+    position: fixed;
+    z-index: 1;
+}
+.nav-dark{
+    background: #141414;
+}
+.nav_logo{
+    width: 100px;
+}
+.profile_img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_left .nav_links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav_left .nav_link{
+    margin: 12px;
+    cursor: pointer;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.nav_right p{
+    background: #00000071;
+    padding: 5px 10px;
+    color: #929292b9;
+    border-radius: 50px;
+}
+.nav_right .icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px;
+    cursor: pointer;
+}
+.logout{
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+.drop{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .nav_bar{
+        padding: 20px 4%;
+    }
+    .nav_left .nav_links{
+        display: none;
+    }
+    .nav_right .icon{
+        width: 24px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    .logout img{
+        width: 15px;
+        height: 15px;
+    }
+    .logout {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav_bar{
+        padding: 20px 4%;
+    }
+    .nav_left .nav_links{
+        display: none;
+    }
+    .nav_logo{
+        width: 70px;
+    }
+    .nav_right{
+        gap: 5px;
+    }
+    .nav_right .icon{
+        width: 15px;
+        height: 15px;
+    }
+    .nav_right p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,106 @@
+.hero{
+    position: relative;
+}
+.back{
+    width: 100%;
+    mask-image: linear-gradient(to right,transparent,black 75%);
+    -weblit-mask-image:linear-gradient(to right,transparent,black 75%);
+}
+.protector{
+    position: absolute;
+    bottom: 0;
+    padding-left: 6%;
+    width: 100%;
+}
+.pro_img{
+    width: 90%;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+.protector p{
+    width: 100%;
+    max-width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero_btn button{
+    display: flex;
+    align-items:center;
+    gap: 6px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero_btn button img{
+    width: 30px;
+    height: 30px;
+}
+.info{
+    background: #00000089;
+    color:white;
+    border: 1px solid  #454545b9 ;
+}
+.info:hover{
+    background: #454545b9;
+}
+.play{
+    color: #000;
+}
+.play:hover{
+    background: #7b7b7bb9;
+}
+.more_card{
+    padding-left: 6%;
+}
+
+@media (max-width:1024px){
+    .home_content .card_page{
+        display: none;
+    }
+    .hero_btn{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .protector{
+        padding-left: 4%;
+    }
+    .protector img{
+        display: none;
+    }
+    .para{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .hero_btn button img{
+        width: 25px;
+    }
+    .more_card{
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width:800px) {
+    .protector{
+        padding-left: 4%;
+    }
+    .protector img{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .protector p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .hero_btn button img{
+        width: 25px;
+    }
+    .more_card{
+        padding-left: 4%;
+    }
+}

@@ -1,0 +1,334 @@
+p{
+    line-height: 1.5;
+}
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url('../../Assest/background_banner.jpg');
+    height: 100vh;
+}
+.index_nav{
+    width: 100vw;
+    max-width:80% ;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.index_nav .logo{
+    width: 150px;
+}
+.index_nav_left{
+    display: flex;
+    gap: 30px;
+}
+.index_nav_left select{
+    padding: 10px 15px;
+    background: #27272766;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.Signup_index{
+    padding: 10px;
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.index_hero{
+    margin: 200px auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.index_hero h1{
+    font-size: 3rem;
+}
+.index_hero span{
+    font-size: 1.5rem;
+}
+.index_hero p{
+    font-size: 1rem;
+}
+.input_index{
+    display: flex;
+    gap: 10px;
+}
+.input_index input{
+    font-size: 1rem;
+    padding: 15px 40px;
+    border-radius: 2px;
+    background: #4141416d;
+    border: 1px solid #ffffff8c;
+    color: #fff;
+}
+.input_index button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.section1_index,.section2_index{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.section1_right img{
+    background-image: url('../../Assest/video.gif');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.section1_right{
+    flex-basis: 50%;
+}
+.section1_left{
+    flex-basis: 40%;
+}
+.section1_left h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.section1_left p{
+    font-size: 1.5rem;
+}
+
+
+
+.section2_index{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.section2_right h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.section2_right p{
+    font-size: 1.5rem;
+}
+
+.section2_right{
+    flex-basis: 50%;
+}
+.section2_left{
+    flex-basis: 30%;
+    position: relative;
+}
+.section2_left .download{
+    position: absolute;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 100px;
+    right: 22%;
+    gap: 40px;
+    bottom: 20px;
+    background: #000000;
+    border: 1px solid #fff;
+    align-items: center;
+}
+.section2_left .download img{
+    width: 100%;
+}
+.poster{
+    width: 40px;
+    height: 80px;
+}
+.download_ani{
+    border-radius: 50%;
+    width: 20px;
+    height: 60px;
+}
+
+
+.section3_index{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.section3_right{
+    flex-basis: 50%;
+}
+.section3_left{
+    flex-basis: 40%;
+}
+.section3_left h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.section3_left p{
+    font-size: 1.5rem;
+}
+
+
+
+.section4_index{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.section4_left{
+    flex-basis: 40%;
+}
+.section4_right{
+    flex-basis: 50%;
+}
+.section4_right h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.section4_right p{
+    font-size: 1.5rem;
+}
+
+
+.faq{
+    width: 100vw;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.faq h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .index_nav .logo{
+        width: 90px;
+    }
+    .index_nav{
+        max-width: 100%;
+    }
+    .index_hero{
+        padding: 10px;
+        margin: 100px auto;
+    }
+    .input_index{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .input_index{
+        width: 100%;
+    }
+    .input_index button{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .index_hero h1{
+        font-size: 2.5rem;
+    }
+    .index_hero span{
+        font-size: 1.3rem;
+    }
+    .index_hero p{
+        font-size: 1rem;
+    }
+    .section1_index,.section3_index{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .section2_index,.section4_index{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .section1_left,.section1_right, .section2_left,.section2_right, .section3_left,.section3_right, .section4_left,.section5_right{
+        flex-basis: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .section1_left h1{
+        font-size: 2rem;
+    }
+    .section2_right h1{
+        font-size: 2rem;
+    }
+    .section3_left h1{
+        font-size: 2rem;
+    }
+    .section4_right h1{
+        font-size: 2rem;
+    }
+    .section1_left p{
+        font-size: 1rem;
+    }
+    .section2_right p{
+        font-size: 1rem;
+    }
+    .section3_left p{
+        font-size: 1rem;
+    }
+    .section4_right p{
+        font-size: 1rem;
+    }
+    .section1_left,.section2_right,.section3_left,.section4_right{
+        text-align: center;
+    }
+
+
+    .section2_left .download{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        border-radius: 5px;
+        padding: 30px;
+        height: 80px;
+        right: 0;
+        gap: 20px;
+        bottom: 20px;
+        background: #000000;
+        border: 1px solid #fff;
+        align-items: center;
+    }
+    .section2_left .download img{
+        width: 100%;
+    }
+    .poster{
+        width: 30px;
+        height: 60px;
+    }
+    .download_ani{
+        border-radius: 50%;
+        width: 10px;
+        height: 50px;
+    }
+    .faq h1{
+        font-size: 2rem;
+    }
+}
